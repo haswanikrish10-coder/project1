@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            text-align: center;
+            margin: 0;
+        }
+
+        h1{
+            background-color: #1f4e79;
+            color: white;
+            padding: 15px;
+        }
+
+        .box{
+            width: 300px;
+            margin: 20px auto;
+            padding: 15px;
+            background-color: white;
+            border: 1px solid #ccc;
+        }
+
+        /* Mobile View */
+        @media screen and (max-width:600px){
+
+            .box{
+                width:90%;
+            }
+
+            h1{
+                font-size:24px;
+            }
+
+            h3{
+                font-size:18px;
+            }
+
+            p{
+                font-size:16px;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+    <h1>Product Details</h1>
+
+    <div class="box">
+        <h3>Total Products</h3>
+        <p>120</p>
+    </div>
+
+    <div class="box">
+        <h3>Available Products</h3>
+        <p>100</p>
+    </div>
+
+    <div class="box">
+        <h3>Out of Stock</h3>
+        <p>20</p>
+    </div>
+
+    <script>
+        console.log("Product page loaded successfully.");
+    </script>
+
+</body>
+</html>
