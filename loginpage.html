@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Create Account</title>
+
+    <link rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css">
+
+    <link rel="stylesheet" href="loginpage.css">
+</head>
+<body>
+
+<div class="newaccount">
+
+    <h2>Create an Account</h2>
+
+    <label><b>Name</b></label><br>
+    <input type="text" placeholder="Enter your name"><br><br>
+
+    <label><b>Email</b></label><br>
+    <input type="email" placeholder="Enter your email"><br><br>
+
+    <label><b>Phone Number</b></label><br>
+    <input type="tel" placeholder="Enter your phone number"><br><br>
+
+    <label><b>Password</b></label><br>
+    <input type="password" id="password" placeholder="Enter password">
+    <p onclick="showPassword()" style="cursor:pointer;">
+        <i class="fa-solid fa-eye"></i> Show
+    </p>
+
+    <label><b>Confirm Password</b></label><br>
+    <input type="password" placeholder="Confirm password"><br><br>
+
+    <input type="checkbox" id="agree">
+    <label for="agree">I agree to Terms & Conditions</label><br><br>
+
+    <button onclick="createAccount()">Create Account</button>
+
+    <p>Already have an account?
+        <a href="index.html"><b>Login</b></a>
+    </p>
+
+</div>
+
+<script src="index1.js"></script>
+
+</body>
+</html>
