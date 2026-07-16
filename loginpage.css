@@ -1,5 +1,5 @@
 body{
-    background-color: #6A11CB;
+    background-color: #b286e1;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -31,7 +31,7 @@ input{
 button{
     width: 100%;
     padding: 10px;
-    background-color: #6A11CB;
+    background-color: #aa77e0;
     color: white;
     border: none;
     border-radius: 5px;
