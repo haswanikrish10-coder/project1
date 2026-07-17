@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Settings</title>
+
+    <style>
+        body{
+            font-family: Arial, sans-serif;
+            background-color:#f2f2f2;
+            margin:0;
+            text-align:center;
+        }
+
+        h1{
+            background-color:#1f4e79;
+            color:white;
+            padding:15px;
+        }
+
+        .box{
+            width:320px;
+            margin:20px auto;
+            padding:15px;
+            background:white;
+            border:1px solid #ccc;
+            text-align:left;
+        }
+
+        @media screen and (max-width:600px){
+            .box{
+                width:90%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+
+<h1>Settings</h1>
+
+<div class="box">
+    <p><input type="checkbox"> Enable Notifications</p>
+    <p><input type="checkbox"> Dark Mode</p>
+    <p><input type="checkbox"> Email Alerts</p>
+    <button onclick="alert('Settings updated successfully!')">Save Settings</button>
+</div>
+
+
+
+</body>
+</html>
